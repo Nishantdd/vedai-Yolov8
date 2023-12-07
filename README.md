@@ -1,4 +1,4 @@
-# vedai-Dotav8
+# vedai-Yolov8
 A python script to trail a YOLO model on Vedai dataset
 
 # Requirements
