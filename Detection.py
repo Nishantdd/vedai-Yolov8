@@ -10,10 +10,10 @@ import numpy as np
 from sort import *
 
 # Open the video file for processing
-cap = cv2.VideoCapture("directory/images/video.mp4") #Change the path to your testing video
+cap = cv2.VideoCapture("../images/video.mp4") #Change the path to your testing video
 
 # Initialize YOLO model with trained weight
-model = YOLO("D:/directory/Weights/best_100.pt")
+model = YOLO("../runs/detect/train/weights/best.pt")
 
 # Define class names for detected objects
 classNames = ['car', 'pickup', 'camping car', 'truck', 'others', 'tractor', 'boat', 'vans', 'motorcycles', 'buses', 'Small Land Vehicles', 'Large Land Vehicles']
