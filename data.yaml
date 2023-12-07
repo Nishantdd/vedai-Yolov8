@@ -1,0 +1,5 @@
+train: ../data/train
+val: ../data/valid
+
+nc: 12
+names: ['car', 'pickup', 'camping car', 'truck', 'others', 'tractor', 'boat','vans','motorcycles','buses','Small Land Vehicles', 'Large Land Vehicles']
