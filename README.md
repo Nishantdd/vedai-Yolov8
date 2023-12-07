@@ -1,5 +1,5 @@
 # vedai-Yolov8
-A python script to trail a YOLO model on Vedai dataset
+A python script to train a YOLO model on Vedai dataset and Detection script that detects the bounding box and use SORT algorithm for tracking.
 
 # Requirements
 ```
